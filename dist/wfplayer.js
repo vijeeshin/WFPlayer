@@ -285,8 +285,8 @@ class WFPlayer extends (0, _emitterDefault.default) {
         this.update();
         return this;
     }
-    load() {
-       /*  // Audiobuffer
+    load(target) {
+        // Audiobuffer
         if (target && typeof target.getChannelData === "function") {
             this.decoder.decodeSuccess(target);
             this.controller.init();
@@ -305,7 +305,7 @@ class WFPlayer extends (0, _emitterDefault.default) {
         }
         (0, _utils.errorHandle)(typeof target === "string" && target.trim(), `The load target is not a string. If you are loading a mediaElement, make sure the mediaElement.src is not empty.`);
         // String Url
-        this.loader.load(target); */
+        this.loader.load(target);
         this.controller.init();
         return this;
     }
