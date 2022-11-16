@@ -188,7 +188,7 @@ class WFPlayer extends (0, _emitterDefault.default) {
             container: "#waveform",
             mediaElement: null,
             useWorker: true,
-            wave: false,
+            wave: true,
             waveColor: "rgba(255, 255, 255, 0.1)",
             backgroundColor: "rgb(28, 32, 34)",
             paddingColor: "rgba(255, 255, 255, 0.05)",
