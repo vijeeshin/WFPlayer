@@ -85,7 +85,7 @@ declare class WFPlayer {
     off<T extends keyof Events>(name: T, callback?: Function): unknown;
 
     setOptions(options: Partial<Option>): WFPlayer;
-    load(target: string | Uint8Array | AudioBuffer | HTMLVideoElement | HTMLAudioElement): WFPlayer;
+    load(): WFPlayer;
     getCurrentTimeFromEvent(event: Event): number;
     getDurationFromWidth(width: number): number;
     getWidthFromDuration(width: number): number;

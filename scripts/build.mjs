@@ -9,7 +9,8 @@ import { Parcel } from '@parcel/core';
         defaultConfig: '@parcel/config-default',
         mode: 'production',
         targets: {
-            mian: {
+            main: {
+                optimize:false,
                 distDir: 'dist',
                 sourceMap: false,
                 outputFormat: 'global',
